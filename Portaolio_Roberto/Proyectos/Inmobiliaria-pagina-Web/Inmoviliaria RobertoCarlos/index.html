@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homeverse - Encuentra la casa de tus sueños</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>info@homeverse.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+              <address>Alicante, España</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <button class="header-top-btn">Agregar Propiedad</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" alt="Homeverse logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="Homeverse logo">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Cerrar Menú">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+              </li>
+
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>Sobre Nosotros</a>
+              </li>
+
+              <li>
+                <a href="#service" class="navbar-link" data-nav-link>Servicios</a>
+              </li>
+
+              <li>
+                <a href="#property" class="navbar-link" data-nav-link>Propiedades</a>
+              </li>
+
+              <li>
+                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link>Contacto</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+
+          <button class="header-bottom-actions-btn" aria-label="Buscar">
+            <ion-icon name="search-outline"></ion-icon>
+            <span>Buscar</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" aria-label="Perfil">
+            <ion-icon name="person-outline"></ion-icon>
+            <span>Perfil</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" aria-label="Carrito">
+            <ion-icon name="cart-outline"></ion-icon>
+            <span>Carrito</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Abrir Menú">
+            <ion-icon name="menu-outline"></ion-icon>
+            <span>Menú</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <article>
+
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <ion-icon name="home"></ion-icon>
+              <span>Agencia Inmobiliaria</span>
+            </p>
+
+            <h2 class="h1 hero-title">Encuentra la casa de tus sueños con nosotros</h2>
+
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+            </p>
+
+            <button class="btn">Haz una Consulta</button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" alt="Modelo de casa moderna" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner-1.png" alt="Interior de casa">
+            <img src="./assets/images/about-banner-2.jpg" alt="Interior de casa" class="abs-img">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Sobre Nosotros</p>
+            <h2 class="h2 section-title">El principal mercado de alquiler de inmuebles</h2>
+
+            <p class="about-text">
+              Más de 39,000 personas trabajan con nosotros en más de 70 países en todo el mundo. Esta amplitud de cobertura global, combinada con servicios especializados.
+            </p>
+
+            <ul class="about-list">
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+                <p class="about-item-text">Diseño Inteligente del Hogar</p>
+              </li>
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+                <p class="about-item-text">Hermosos Paisajes Alrededor</p>
+              </li>
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="wine-outline"></ion-icon>
+                </div>
+                <p class="about-item-text">Estilo de Vida Excepcional</p>
+              </li>
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+                <p class="about-item-text">Seguridad Completa 24/7</p>
+              </li>
+            </ul>
+
+            <p class="callout">
+              "Enimad minim veniam quis nostrud exercitation
+              llamco laboris. Lorem ipsum dolor sit amet"
+            </p>
+
+            <a href="#service" class="btn">Nuestros Servicios</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="service" id="service">
+        <div class="container">
+
+          <p class="section-subtitle">Nuestros Servicios</p>
+          <h2 class="h2 section-title">Nuestro Enfoque Principal</h2>
+
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.png" alt="Ícono de servicio">
+                </div>
+                <h3 class="h3 card-title"><a href="#">Comprar una casa</a></h3>
+                <p class="card-text">
+                  Más de 1 millón de casas en venta disponibles en el sitio web; podemos ayudarte a encontrar la casa que deseas.
+                </p>
+                <a href="#" class="card-link">
+                  <span>Encontrar una Casa</span>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.png" alt="Ícono de servicio">
+                </div>
+                <h3 class="h3 card-title"><a href="#">Alquilar una casa</a></h3>
+                <p class="card-text">
+                  Más de 1 millón de casas en venta disponibles en el sitio web; podemos ayudarte a encontrar la casa que deseas.
+                </p>
+                <a href="#" class="card-link">
+                  <span>Encontrar una Casa</span>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.png" alt="Ícono de servicio">
+                </div>
+                <h3 class="h3 card-title"><a href="#">Vender una casa</a></h3>
+                <p class="card-text">
+                  Más de 1 millón de casas en venta disponibles en el sitio web; podemos ayudarte a encontrar la casa que deseas.
+                </p>
+                <a href="#" class="card-link">
+                  <span>Encontrar una Casa</span>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="footer-top">
+    <div class="container">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-light.png" alt="Homeverse logo">
+        </a>
+
+        <p class="section-text">
+          Lorem Ipsum es simplemente texto de relleno de la industria y la tipografía. Lorem Ipsum es texto de relleno de la impresión.
+        </p>
+
+        <ul class="contact-list">
+
+          <li>
+            <a href="#" class="contact-link">
+              <ion-icon name="location-outline"></ion-icon>
+              <address>Brooklyn, Nueva York, Estados Unidos</address>
+            </a>
+          </li>
+
+          <li>
+            <a href="tel:+0123456789" class="contact-link">
+              <ion-icon name="call-outline"></ion-icon>
+              <span>+0123-456789</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:contact@homeverse.com" class="contact-link">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>contacto@homeverse.com</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-link-box">
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Compañía</p>
+          </li>
+          <li><a href="#" class="footer-link">Sobre Nosotros</a></li>
+          <li><a href="#" class="footer-link">Blog</a></li>
+          <li><a href="#" class="footer-link">Todos los Productos</a></li>
+          <li><a href="#" class="footer-link">Mapa de Ubicaciones</a></li>
+          <li><a href="#" class="footer-link">Preguntas Frecuentes</a></li>
+          <li><a href="#" class="footer-link">Contáctanos</a></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Servicios</p>
+          </li>
+          <li><a href="#" class="footer-link">Seguimiento de pedidos</a></li>
+          <li><a href="#" class="footer-link">Lista de deseos</a></li>
+          <li><a href="#" class="footer-link">Iniciar sesión</a></li>
+          <li><a href="#" class="footer-link">Mi cuenta</a></li>
+          <li><a href="#" class="footer-link">Términos y Condiciones</a></li>
+          <li><a href="#" class="footer-link">Ofertas Promocionales</a></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Atención al Cliente</p>
+          </li>
+          <li><a href="#" class="footer-link">Iniciar sesión</a></li>
+          <li><a href="#" class="footer-link">Mi cuenta</a></li>
+          <li><a href="#" class="footer-link">Lista de deseos</a></li>
+          <li><a href="#" class="footer-link">Seguimiento de pedidos</a></li>
+          <li><a href="#" class="footer-link">Preguntas Frecuentes</a></li>
+          <li><a href="#" class="footer-link">Contáctanos</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p class="copyright">
+        &copy; 2025 <a href="#">Roberto Carlos Carrion</a>. Todos los derechos reservados
+      </p>
+    </div>
+  </div>
+
+</footer>
